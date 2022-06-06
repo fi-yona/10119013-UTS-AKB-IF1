@@ -7,7 +7,8 @@
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_baseline_account_circle_24"
-            android:title="Profile" />
+            android:title="Profile"
+            android:iconTint="#4E7463"/>
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_baseline_assignment_24"

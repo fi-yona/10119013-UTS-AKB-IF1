@@ -40,16 +40,15 @@
         android:id="@+id/identity_splash"
         android:layout_width="194dp"
         android:layout_height="wrap_content"
-        android:lineHeight="17sp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="500dp"
-        android:text="By Fiona Avila Putri\n10119013"
-        android:textSize="14sp"
-        android:textColor="#92E3A9"
-        android:textStyle="bold"
         android:gravity="center_horizontal|top"
-        />
+        android:lineHeight="17sp"
+        android:text="By Fiona Avila Putri\n10119013"
+        android:textColor="#92E3A9"
+        android:textSize="14sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button_mulai"
