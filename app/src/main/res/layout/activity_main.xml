@@ -60,20 +60,19 @@
         android:layout_marginTop="550dp"
         android:width="160dp"
         android:height="33dp"
-        android:elevation="8dp"
         android:backgroundTint="#92E3A9"
-        android:text="MULAI"
-        android:viewportWidth="160"
-        android:viewportHeight="33"
+        android:elevation="8dp"
         android:strokeWidth="2"
         android:strokeColor="#47000000"
-        app:cornerRadius="5px"
+        android:text="MULAI"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="#4E7463"
         android:textSize="16dp"
         android:textStyle="bold"
-        />
+        android:viewportWidth="160"
+        android:viewportHeight="33"
+        app:cornerRadius="5px" />
 
 
 </RelativeLayout>
