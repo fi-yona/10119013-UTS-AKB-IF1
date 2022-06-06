@@ -6,17 +6,32 @@
     android:layout_height="match_parent"
     tools:context=".ui.Informasi.InformasiFragment">
 
-    <TextView
-        android:id="@+id/text_slideshow"
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout_tentang"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="4dp"
+        android:backgroundTint="#92E3A9"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_tentang_informasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_versi_informasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Versi"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_madeby_informasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Made by"/>
+    </com.google.android.material.tabs.TabLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

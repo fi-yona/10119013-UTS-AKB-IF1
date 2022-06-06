@@ -10,6 +10,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.a10119013_uts_akb_if1.R;
 import com.example.a10119013_uts_akb_if1.databinding.FragmentInformasiBinding;
 
 //NIM   : 10119013
@@ -22,20 +23,13 @@ public class InformasiFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        InformasiViewModel informasiViewModel =
-                new ViewModelProvider(this).get(InformasiViewModel.class);
-
-        binding = FragmentInformasiBinding.inflate(inflater, container, false);
-        View root = binding.getRoot();
-
-        final TextView textView = binding.textSlideshow;
-        informasiViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
-        return root;
+        // Inflate the layout for this fragment
+        View view = inflater.inflate(R.layout.fragment_informasi, container, false);
+        return view;
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        binding = null;
     }
 }
