@@ -12,6 +12,10 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.example.a10119013_uts_akb_if1.databinding.FragmentInformasiBinding;
 
+//NIM   : 10119013
+//NAMA  : FIONA AVILA PUTRI
+//KELAS : IF-1
+
 public class InformasiFragment extends Fragment {
 
     private FragmentInformasiBinding binding;
