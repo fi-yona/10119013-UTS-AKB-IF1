@@ -11,7 +11,9 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardview_catatan_harian"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:text="Judul"
                 android:textColor="#4E7463"
-                android:textSize="20sp"
+                android:textSize="22dp"
                 android:textStyle="bold"
                 android:fontFamily="sans-serif"/>
 
@@ -38,9 +40,9 @@
                     android:id="@+id/label_kategori"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="kategori"
+                    android:text="Kategori"
                     android:layout_weight="1"
-                    android:textSize="18sp"
+                    android:textSize="16dp"
                     android:textColor="#4E7463"
                     android:fontFamily="sans-serif"/>
 
@@ -48,8 +50,8 @@
                     android:id="@+id/label_tanggal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="tanggal"
-                    android:textSize="18sp"
+                    android:text="Tanggal"
+                    android:textSize="16dp"
                     android:textColor="#4E7463"
                     android:fontFamily="sans-serif"/>
             </LinearLayout>
@@ -59,8 +61,8 @@
                 android:id="@+id/label_isi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="content"
-                android:layout_marginTop="20dp"
+                android:text="Isi"
+                android:textSize="14dp"
                 android:textColor="#4E7463"
                 android:fontFamily="sans-serif"/>
 

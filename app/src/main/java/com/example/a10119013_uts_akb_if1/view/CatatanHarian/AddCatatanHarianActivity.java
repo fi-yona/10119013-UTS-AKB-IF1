@@ -3,6 +3,7 @@ package com.example.a10119013_uts_akb_if1.view.CatatanHarian;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -17,7 +18,7 @@ import java.util.Date;
 public class AddCatatanHarianActivity extends AppCompatActivity {
     EditText input_judul,input_kategori, input_isi;
     String input_tanggal;
-    Button button_add;
+    Button button_add, button_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,8 @@ public class AddCatatanHarianActivity extends AppCompatActivity {
         input_tanggal = getDateNow(); //tanggal auto terisi ke database
 
         button_add = findViewById(R.id.button_add);
+        button_back = findViewById(R.id.button_back);
+
         button_add.setOnClickListener(view -> {
             DatabaseHelper db = new DatabaseHelper(AddCatatanHarianActivity.this);
             CatatanHarianModel catatanHarianModel = new CatatanHarianModel("id",
@@ -45,6 +48,13 @@ public class AddCatatanHarianActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        button_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(AddCatatanHarianActivity.this, CatatanHarianFragment.class);
+                startActivity(i);
+            }
+        });
     }
 
     public String getDateNow(){

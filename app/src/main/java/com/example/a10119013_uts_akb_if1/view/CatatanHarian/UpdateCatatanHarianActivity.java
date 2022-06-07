@@ -13,6 +13,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.a10119013_uts_akb_if1.MainActivity;
 import com.example.a10119013_uts_akb_if1.MenuActivity;
 import com.example.a10119013_uts_akb_if1.R;
 import com.example.a10119013_uts_akb_if1.model.helper.DatabaseHelper;
@@ -24,7 +25,7 @@ import java.util.Date;
 public class UpdateCatatanHarianActivity extends AppCompatActivity {
 
     EditText input_judul_update,input_kategori_update, input_isi_update;
-    Button button_update, button_delete;
+    Button button_update, button_delete, button_back;
     String input_tanggal;
     CatatanHarianModel catatanHarianModel;
 
@@ -39,6 +40,7 @@ public class UpdateCatatanHarianActivity extends AppCompatActivity {
         input_tanggal = getDateNow();
         button_update = findViewById(R.id.button_update);
         button_delete = findViewById(R.id.button_delete);
+        button_back = findViewById(R.id.button_back);
 
         getAndSetIntentData();
 
@@ -71,6 +73,13 @@ public class UpdateCatatanHarianActivity extends AppCompatActivity {
             }
         });
 
+        button_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(UpdateCatatanHarianActivity.this, CatatanHarianFragment.class);
+                startActivity(i);
+            }
+        });
     }
 
     public String getDateNow(){
