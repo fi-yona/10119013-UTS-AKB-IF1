@@ -1,4 +1,4 @@
-package com.example.a10119013_uts_akb_if1.ui.CatatanHarian;
+package com.example.a10119013_uts_akb_if1.view.CatatanHarian;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;

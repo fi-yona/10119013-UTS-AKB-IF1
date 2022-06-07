@@ -1,4 +1,4 @@
-package com.example.a10119013_uts_akb_if1.ui.Informasi;
+package com.example.a10119013_uts_akb_if1.view.Informasi;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;

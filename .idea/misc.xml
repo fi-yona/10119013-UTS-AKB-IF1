@@ -14,6 +14,8 @@
         <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/drawable/side_nav_bar.xml" value="0.165" />
         <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/layout/activity_main.xml" value="0.1859375" />
         <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/layout/activity_menu.xml" value="0.2" />
+        <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/layout/activity_tambah_catatanharian.xml" value="0.184375" />
+        <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/layout/activity_ubah_catatanharian.xml" value="0.2" />
         <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/layout/app_bar_menu.xml" value="0.2" />
         <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/layout/content_menu.xml" value="0.1859375" />
         <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/layout/fragment_catatanharian.xml" value="0.2" />
@@ -27,6 +29,7 @@
         <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/layout/fragment_versi_view_pager.xml" value="0.2" />
         <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/layout/fragment_view_pager.xml" value="0.2" />
         <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/layout/nav_header_menu.xml" value="0.2" />
+        <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/layout/row.xml" value="0.15608465608465608" />
         <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/layout/viewpager_item.xml" value="0.1" />
         <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/menu/activity_navigation_drawer.xml" value="0.67" />
         <entry key="..\:/Users/fiona/AndroidStudioProjects/10119013_UTS_AKB_IF1/app/src/main/res/menu/menu.xml" value="0.10465116279069768" />

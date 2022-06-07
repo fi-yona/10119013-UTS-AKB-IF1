@@ -10,6 +10,7 @@ import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.a10119013_uts_akb_if1.databinding.ActivityMenuBinding;
+
 //NIM   : 10119013
 //NAMA  : FIONA AVILA PUTRI
 //KELAS : IF-1

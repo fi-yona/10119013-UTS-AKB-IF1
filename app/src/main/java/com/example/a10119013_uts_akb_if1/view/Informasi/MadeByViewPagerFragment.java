@@ -1,4 +1,4 @@
-package com.example.a10119013_uts_akb_if1.ui.Informasi;
+package com.example.a10119013_uts_akb_if1.view.Informasi;
 
 import android.os.Bundle;
 
@@ -15,12 +15,12 @@ import com.example.a10119013_uts_akb_if1.R;
 //NAMA  : FIONA AVILA PUTRI
 //KELAS : IF-1
 
-public class TentangViewPagerFragment extends Fragment {
+public class MadeByViewPagerFragment extends Fragment {
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tentang_view_pager, container, false);
+        return inflater.inflate(R.layout.fragment_made_by_view_pager, container, false);
     }
 }

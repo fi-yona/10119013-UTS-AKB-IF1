@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.a10119013_uts_akb_if1.ui.Profile.ProfileFragment"
+        android:name="com.example.a10119013_uts_akb_if1.view.Profile.ProfileFragment"
         android:label="PROFILE"
         tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/nav_gallery"
-        android:name="com.example.a10119013_uts_akb_if1.ui.CatatanHarian.CatatanHarianFragment"
+        android:name="com.example.a10119013_uts_akb_if1.view.CatatanHarian.CatatanHarianFragment"
         android:label="CATATAN HARIAN"
         tools:layout="@layout/fragment_catatanharian" />
 
     <fragment
         android:id="@+id/nav_slideshow"
-        android:name="com.example.a10119013_uts_akb_if1.ui.Informasi.InformasiFragment"
+        android:name="com.example.a10119013_uts_akb_if1.view.Informasi.InformasiFragment"
         android:label="INFORMASI APP"
         tools:layout="@layout/fragment_informasi" />
 </navigation>
