@@ -15,6 +15,10 @@ import com.example.a10119013_uts_akb_if1.model.CatatanHarian.CatatanHarianModel;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+//NIM   : 10119013
+//NAMA  : FIONA AVILA PUTRI
+//KELAS : IF-1
+
 public class AddCatatanHarianActivity extends AppCompatActivity {
     EditText input_judul,input_kategori, input_isi;
     String input_tanggal;

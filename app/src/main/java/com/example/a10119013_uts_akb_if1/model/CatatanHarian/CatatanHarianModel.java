@@ -1,5 +1,9 @@
 package com.example.a10119013_uts_akb_if1.model.CatatanHarian;
 
+//NIM   : 10119013
+//NAMA  : FIONA AVILA PUTRI
+//KELAS : IF-1
+
 public class CatatanHarianModel {
     private final String id;
     private final String judul;

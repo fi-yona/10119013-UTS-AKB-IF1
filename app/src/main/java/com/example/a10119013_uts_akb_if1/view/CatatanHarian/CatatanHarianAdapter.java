@@ -16,6 +16,10 @@ import com.example.a10119013_uts_akb_if1.model.CatatanHarian.CatatanHarianModel;
 
 import java.util.List;
 
+//NIM   : 10119013
+//NAMA  : FIONA AVILA PUTRI
+//KELAS : IF-1
+
 public class CatatanHarianAdapter extends RecyclerView.Adapter<CatatanHarianAdapter.CatatanHarianViewHolder> {
 
     private Activity activity;

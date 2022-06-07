@@ -13,7 +13,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.a10119013_uts_akb_if1.MainActivity;
 import com.example.a10119013_uts_akb_if1.MenuActivity;
 import com.example.a10119013_uts_akb_if1.R;
 import com.example.a10119013_uts_akb_if1.model.helper.DatabaseHelper;
@@ -21,6 +20,10 @@ import com.example.a10119013_uts_akb_if1.model.CatatanHarian.CatatanHarianModel;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+//NIM   : 10119013
+//NAMA  : FIONA AVILA PUTRI
+//KELAS : IF-1
 
 public class UpdateCatatanHarianActivity extends AppCompatActivity {
 
