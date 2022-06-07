@@ -1,30 +1,15 @@
 package com.example.a10119013_uts_akb_if1;
 
-import android.content.ClipData;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.view.Menu;
-
-import com.example.a10119013_uts_akb_if1.ui.Informasi.MadeByViewPagerFragment;
-import com.example.a10119013_uts_akb_if1.ui.Informasi.TentangViewPagerFragment;
-import com.example.a10119013_uts_akb_if1.ui.Informasi.VersiViewPagerFragment;
-import com.example.a10119013_uts_akb_if1.ui.Informasi.ViewPagerAdapter;
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
-import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewpager.widget.ViewPager;
-
 import com.example.a10119013_uts_akb_if1.databinding.ActivityMenuBinding;
-import com.google.android.material.tabs.TabLayout;
-
 //NIM   : 10119013
 //NAMA  : FIONA AVILA PUTRI
 //KELAS : IF-1
@@ -33,8 +18,7 @@ public class MenuActivity extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
     private ActivityMenuBinding binding;
-    private TabLayout tabLayout;
-    private ViewPager viewPager;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,16 +48,7 @@ public class MenuActivity extends AppCompatActivity {
         NavigationUI.setupActionBarWithNavController(this, navController, mAppBarConfiguration);
         NavigationUI.setupWithNavController(navigationView, navController);
 
-        tabLayout = findViewById(R.id.tab_layout_informasi);
-        viewPager = findViewById(R.id.viewpager);
 
-        tabLayout.setupWithViewPager(viewPager);
-
-        ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
-        viewPagerAdapter.addFragment(new TentangViewPagerFragment(), "Tentang");
-        viewPagerAdapter.addFragment(new VersiViewPagerFragment(), "Versi");
-        viewPagerAdapter.addFragment(new MadeByViewPagerFragment(), "Made by");
-        viewPager.setAdapter(viewPagerAdapter);
 
     }
 
@@ -83,6 +58,7 @@ public class MenuActivity extends AppCompatActivity {
         //getMenuInflater().inflate(R.menu.menu, menu);
         //return true;
     //}
+
 
     @Override
     public boolean onSupportNavigateUp() {

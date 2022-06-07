@@ -17,6 +17,6 @@
         android:textAlignment="center"
         android:text="Versi 1.0"
         android:textColor="#4E7463"
-        android:textSize="18sp"/>
+        android:textSize="35sp"/>
 
 </FrameLayout>

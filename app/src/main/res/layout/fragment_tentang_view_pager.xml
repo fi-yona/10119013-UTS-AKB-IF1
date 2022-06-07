@@ -14,8 +14,8 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
-        android:text="Aplikasi ini merupakan sebuah aplikasi java android yang digunakan untuk membuat daftar catatan harian."
+        android:text="Aplikasi ini merupakan sebuah aplikasi java android yang digunakan untuk membuat dan menyimpan daftar catatan harian."
         android:textColor="#4E7463"
-        android:textSize="18sp"/>
+        android:textSize="25sp"/>
 
 </FrameLayout>

@@ -2,6 +2,7 @@ package com.example.a10119013_uts_akb_if1.ui.Informasi;
 
 import android.os.Bundle;
 
+import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
@@ -17,7 +18,7 @@ import com.example.a10119013_uts_akb_if1.R;
 public class TentangViewPagerFragment extends Fragment {
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_tentang_view_pager, container, false);

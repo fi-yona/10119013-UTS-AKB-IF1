@@ -17,6 +17,7 @@
         android:textAlignment="center"
         android:text="Made By. Fiona Avila Putri\n10119013\n-2022-"
         android:textColor="#4E7463"
-        android:textSize="18sp"/>
+        android:textSize="25sp"
+        />
 
 </FrameLayout>

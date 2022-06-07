@@ -1,19 +1,22 @@
 package com.example.a10119013_uts_akb_if1.ui.Informasi;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
 import java.util.ArrayList;
 
-public class ViewPagerAdapter extends FragmentPagerAdapter {
+//NIM   : 10119013
+//NAMA  : FIONA AVILA PUTRI
+//KELAS : IF-1
+
+public class InformasiViewPagerAdapter extends FragmentPagerAdapter {
 
     private final ArrayList<Fragment> fragmentArrayList = new ArrayList<>();
     private final ArrayList<String> fragmentTitle = new ArrayList<>();
 
-    public ViewPagerAdapter(@NonNull FragmentManager fm, int behavior) {
+    public InformasiViewPagerAdapter(@NonNull FragmentManager fm, int behavior) {
         super(fm, behavior);
     }
 
@@ -34,7 +37,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
         fragmentTitle.add(title);
     }
 
-    @Nullable
+    @NonNull
     @Override
     public CharSequence getPageTitle(int position) {
         return fragmentTitle.get(position);
